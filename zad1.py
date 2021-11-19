@@ -26,51 +26,51 @@ class FizzBuzz:
         -23
         >>> f.gameWithDocString("11")
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 30, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 30, in <module>
             print(f.game("11"))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         >>> f.gameWithDocString(())
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 49, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 49, in <module>
             print(f.game(()))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         >>> f.gameWithDocString([])
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 49, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 49, in <module>
             print(f.game([]))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         >>> f.gameWithDocString({})
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 49, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 49, in <module>
             print(f.game({}))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         >>> f.gameWithDocString(3.5)
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 49, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 49, in <module>
             print(f.game(3.5))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         >>> f.gameWithDocString(None)
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 49, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 49, in <module>
             print(f.game(None))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         >>> f.gameWithDocString(True)
         Traceback (most recent call last):
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 49, in <module>
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 49, in <module>
             print(f.game(True))
-          File "C:/Users/zosia/Desktop/uczelnia/testowanie/lab07/zad1.py", line 13, in game
+          File "C:/Users/zosia/testowanie/lab07/zad1.py", line 13, in game
             raise TypeError("Error")
         TypeError: Error
         """
